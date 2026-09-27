@@ -68,6 +68,14 @@ Small variances may remain because source data is reported in USD millions and b
 - DAX
 - CSV source files from the U.S. Treasury
 
+## Project Files
+
+- [Download the Power BI file](Daily%20Treasury%20Statement%20Analysis.pbix)
+- [View the full report PDF](2026-09-24%20Daily%20Treasury%20Statement%20Analysis.pdf)
+- [Methodology](documentation/methodology.md)
+- [Data Sources](documentation/data-sources.md)
+- [Selected DAX Measures](documentation/dax-measures.md)
+
 ## Full Report
 
 A PDF export of the completed report is included in the repository:
