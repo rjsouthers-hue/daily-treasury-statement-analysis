@@ -21,6 +21,15 @@ This project was built to demonstrate practical analyst skills across the full p
 
 Rather than recreating the same analysis in both tools, the Power BI and Python portions approach the Treasury data from different perspectives.
 
+### Skills Demonstrated
+
+* Power BI & Power Query
+* DAX & data modeling
+* Financial reconciliation
+* Python & pandas
+* Data visualization with matplotlib
+* Data validation & documentation
+
 ## Power BI Analysis
 
 The Power BI portion focuses on Treasury cash management, federal debt, reconciliation, and tax-related activity.
