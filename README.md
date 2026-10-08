@@ -70,7 +70,39 @@ The Python analysis identified several notable patterns:
 * February was the strongest average month for regular refund activity after excluding Economic Impact Payments and Advanced Child Tax Credit payments.
 * February through April remained the strongest seasonal period even after excluding special payment programs, suggesting the seasonal pattern was not solely driven by pandemic-era payments.
 
-The Python charts are included in the `Python/charts` folder.
+### Python Visualizations
+
+The Python analysis uses pandas and matplotlib to explore refund activity in greater detail. These visualizations focus on monthly trends, seasonal patterns, Economic Impact Payments, and refund-type comparisons that complement the broader Power BI analysis.
+
+#### Monthly Refund Activity
+
+![Monthly Refund Activity](Python/charts/monthly_refund_activity.png)
+
+This visualization shows monthly refund activity across the dataset. **March 2021** was the highest-activity month, with approximately **446,855 recorded refund activity**, largely influenced by Economic Impact Payments.
+
+#### Economic Impact Payments
+
+![Economic Impact Payments](Python/charts/economic_impact_payments.png)
+
+This analysis isolates Economic Impact Payment activity to show how the federal pandemic response appears within the Treasury refund data. EIP activity accounted for approximately **71% of March 2021 refund activity**.
+
+#### EIP Payment Methods
+
+![EIP Payment Method](Python/charts/eip_payment_method.png)
+
+This visualization breaks Economic Impact Payments down by payment method, providing a closer look at how these payments were distributed.
+
+#### Seasonal Refund Activity
+
+![Seasonal Refund Activity](Python/charts/seasonal_refund_activity.png)
+
+This analysis examines average refund activity by month to identify recurring seasonal patterns. February through April show the strongest levels of regular refund activity.
+
+#### Seasonal Refund Activity by Type
+
+![Seasonal Refund Activity by Type](Python/charts/seasonal_refund_by_type.png)
+
+This visualization breaks seasonal refund activity down by refund type. After excluding Economic Impact Payments and other special payment programs, February through April remain the strongest period for regular refund activity.
 
 ## Data Source
 
