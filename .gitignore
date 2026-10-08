@@ -1,0 +1,10 @@
+# Raw Treasury data
+Data/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
